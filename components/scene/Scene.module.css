@@ -1,0 +1,6 @@
+.stage { position:fixed; z-index:0; pointer-events:none; inset:0; width:100vw; height:100svh; overflow:hidden; contain:strict }
+.canvas { position:absolute; inset:0; visibility:hidden }
+.stage[data-ready='true'] .canvas { visibility:visible }
+.inspector { position:fixed; z-index:100; left:8px; bottom:8px; max-height:50vh; width:min(380px,45vw); overflow:auto; padding:12px; font:10px/1.4 monospace; color:#fff; background:#28121ce8; pointer-events:auto }
+@media(max-width:900px) { .stage { position:absolute; height:420px; top:80px } }
+@media print { .stage { display:none } }

@@ -1,0 +1,193 @@
+[
+  {
+    "name": "navigation/focus/history",
+    "pass": true,
+    "result": [
+      {
+        "id": "experience",
+        "hash": "#experience",
+        "focused": "experience-title",
+        "y": 117
+      },
+      {
+        "id": "research",
+        "hash": "#research",
+        "focused": "research-title",
+        "y": 117
+      },
+      {
+        "id": "approach",
+        "hash": "#approach",
+        "focused": "approach-title",
+        "y": 117
+      },
+      {
+        "id": "freelance",
+        "hash": "#freelance",
+        "focused": "freelance-title",
+        "y": 117.03125
+      },
+      {
+        "back": "#approach"
+      },
+      {
+        "forward": "#freelance"
+      }
+    ]
+  },
+  {
+    "name": "keyboard focus traversal",
+    "pass": true,
+    "result": [
+      {
+        "text": "Explore my experience ↓",
+        "y": 657.953125,
+        "bottom": 708.453125,
+        "viewport": 900
+      },
+      {
+        "text": "View resume ↗",
+        "y": 657.953125,
+        "bottom": 696.953125,
+        "viewport": 900
+      },
+      {
+        "text": "Explore my work at O.C. Tanner ↓",
+        "y": 359.546875,
+        "bottom": 398.546875,
+        "viewport": 900
+      },
+      {
+        "text": "Read the full resume ↗",
+        "y": 359.84375,
+        "bottom": 398.84375,
+        "viewport": 900
+      },
+      {
+        "text": "View publication on IEEE ↗ (opens in a new ta",
+        "y": 360.296875,
+        "bottom": 399.296875,
+        "viewport": 900
+      },
+      {
+        "text": "Copy publication link +",
+        "y": 360.296875,
+        "bottom": 400.296875,
+        "viewport": 900
+      },
+      {
+        "text": "Return to my engineering experience ↑",
+        "y": 360.4375,
+        "bottom": 396.4375,
+        "viewport": 900
+      },
+      {
+        "text": "View credential ↗ (opens in a new tab)",
+        "y": 359.625,
+        "bottom": 395.625,
+        "viewport": 900
+      },
+      {
+        "text": "View credential ↗ (opens in a new tab)",
+        "y": 352.90625,
+        "bottom": 388.90625,
+        "viewport": 900
+      },
+      {
+        "text": "Get in touch ↗",
+        "y": 359.625,
+        "bottom": 415.671875,
+        "viewport": 900
+      },
+      {
+        "text": "vishnu911ch@gmail.com",
+        "y": 441.671875,
+        "bottom": 484.671875,
+        "viewport": 900
+      },
+      {
+        "text": "Copy email +",
+        "y": 441.671875,
+        "bottom": 481.671875,
+        "viewport": 900
+      },
+      {
+        "text": "LinkedIn ↗ (opens in a new tab)",
+        "y": 504.671875,
+        "bottom": 543.671875,
+        "viewport": 900
+      },
+      {
+        "text": "View resume ↗",
+        "y": 504.671875,
+        "bottom": 543.671875,
+        "viewport": 900
+      },
+      {
+        "text": "Back to top ↑",
+        "y": 643.359375,
+        "bottom": 676.859375,
+        "viewport": 900
+      },
+      {
+        "text": "Motion: Full◉",
+        "y": 709.859375,
+        "bottom": 761.90625,
+        "viewport": 900
+      },
+      {
+        "text": "",
+        "y": 930.328125,
+        "bottom": 930.328125,
+        "viewport": 900
+      },
+      {
+        "text": "Skip to contentVISHNUCHITTAMPALLIExperienceRe",
+        "y": -16006,
+        "bottom": 930.328125,
+        "viewport": 900
+      }
+    ]
+  },
+  {
+    "name": "clipboard failure",
+    "pass": true,
+    "result": {
+      "selectable": 1,
+      "text": "vishnu911ch@gmail.com"
+    }
+  },
+  {
+    "name": "motion preference position",
+    "pass": true,
+    "result": {
+      "before": -260.375,
+      "after": 2501.625,
+      "cinematic": "false"
+    }
+  },
+  {
+    "name": "mobile menu",
+    "pass": true,
+    "result": {
+      "hash": "#approach",
+      "focused": "approach-title",
+      "menuOpen": false,
+      "overflow": {
+        "document": 390,
+        "body": 375,
+        "width": 390
+      }
+    }
+  },
+  {
+    "name": "no javascript core content",
+    "pass": true,
+    "result": {
+      "url": "http://localhost:3001/#experience",
+      "h1": 1,
+      "credentials": 1,
+      "mail": 2
+    }
+  }
+]

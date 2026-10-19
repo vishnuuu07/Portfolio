@@ -1,0 +1,1210 @@
+{
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "observations": [
+    {
+      "name": "hero",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 0,
+      "theme": "light",
+      "chapter": "top",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "top",
+        "darkness": "0.000",
+        "mobileReading": "false",
+        "frameCount": "2",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 505,
+            "y": 559.28125,
+            "width": 900,
+            "height": 269.25,
+            "top": 559.28125,
+            "right": 1405,
+            "bottom": 828.53125,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "orbit",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 403,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "mobileReading": "false",
+        "frameCount": "3",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 505,
+            "y": 156.28125,
+            "width": 900,
+            "height": 269.25,
+            "top": 156.28125,
+            "right": 1405,
+            "bottom": 425.53125,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "separation",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 778,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "mobileReading": "false",
+        "frameCount": "4",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 505,
+            "y": -218.71875,
+            "width": 900,
+            "height": 269.25,
+            "top": -218.71875,
+            "right": 1405,
+            "bottom": 50.53125,
+            "left": 505
+          }
+        },
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 505,
+            "y": 1194.59375,
+            "width": 846.5,
+            "height": 114.234375,
+            "top": 1194.59375,
+            "right": 1351.5,
+            "bottom": 1308.828125,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "introduction",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 1253,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "5",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 505,
+            "y": 719.59375,
+            "width": 846.5,
+            "height": 114.234375,
+            "top": 719.59375,
+            "right": 1351.5,
+            "bottom": 833.828125,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "experience-entry",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 2851,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "6",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "O.C. Tanner.",
+          "rect": {
+            "x": 505,
+            "y": 747.359375,
+            "width": 1305.59375,
+            "height": 137.6875,
+            "top": 747.359375,
+            "right": 1810.59375,
+            "bottom": 885.046875,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "applications",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 4287,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "7",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "From interface to implementation.",
+          "rect": {
+            "x": 914.578125,
+            "y": 328,
+            "width": 600,
+            "height": 112,
+            "top": 328,
+            "right": 1514.578125,
+            "bottom": 440,
+            "left": 914.578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "integrations",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 5424,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "8",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Making systems work together.",
+          "rect": {
+            "x": 914.578125,
+            "y": 328.59375,
+            "width": 600,
+            "height": 112,
+            "top": 328.59375,
+            "right": 1514.578125,
+            "bottom": 440.59375,
+            "left": 914.578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 6562,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "9",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Following the issue to its source.",
+          "rect": {
+            "x": 914.578125,
+            "y": 328.1875,
+            "width": 600,
+            "height": 112,
+            "top": 328.1875,
+            "right": 1514.578125,
+            "bottom": 440.1875,
+            "left": 914.578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "delivery",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 7699,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "10",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "The work around the release.",
+          "rect": {
+            "x": 914.578125,
+            "y": 328.78125,
+            "width": 600,
+            "height": 112,
+            "top": 328.78125,
+            "right": 1514.578125,
+            "bottom": 440.78125,
+            "left": 914.578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 9465,
+      "theme": "light",
+      "chapter": "research",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "research",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "11",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Finding the unusual.",
+          "rect": {
+            "x": 505,
+            "y": 828.953125,
+            "width": 1220.296875,
+            "height": 114.234375,
+            "top": 828.953125,
+            "right": 1725.296875,
+            "bottom": 943.1875,
+            "left": 505
+          }
+        },
+        {
+          "text": "Studies on Anomaly Detection Techniques",
+          "rect": {
+            "x": 505,
+            "y": 1056.984375,
+            "width": 1220.296875,
+            "height": 69.109375,
+            "top": 1056.984375,
+            "right": 1725.296875,
+            "bottom": 1126.09375,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "approach",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 11121,
+      "theme": "light",
+      "chapter": "approach",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "approach",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "12",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering judgment, amplified.",
+          "rect": {
+            "x": 505,
+            "y": 397.0625,
+            "width": 1305.59375,
+            "height": 191.75,
+            "top": 397.0625,
+            "right": 1810.59375,
+            "bottom": 588.8125,
+            "left": 505
+          }
+        },
+        {
+          "text": "Think beyond the first answer.",
+          "rect": {
+            "x": 505,
+            "y": 934.78125,
+            "width": 300,
+            "height": 63.78125,
+            "top": 934.78125,
+            "right": 805,
+            "bottom": 998.5625,
+            "left": 505
+          }
+        },
+        {
+          "text": "Turn ambiguity into a plan.",
+          "rect": {
+            "x": 1333.890625,
+            "y": 934.78125,
+            "width": 300,
+            "height": 63.78125,
+            "top": 934.78125,
+            "right": 1633.890625,
+            "bottom": 998.5625,
+            "left": 1333.890625
+          }
+        },
+        {
+          "text": "Guide the work as it develops.",
+          "rect": {
+            "x": 505,
+            "y": 1212.609375,
+            "width": 300,
+            "height": 63.78125,
+            "top": 1212.609375,
+            "right": 805,
+            "bottom": 1276.390625,
+            "left": 505
+          }
+        },
+        {
+          "text": "Review, test, refine.",
+          "rect": {
+            "x": 1333.890625,
+            "y": 1212.609375,
+            "width": 300,
+            "height": 31.890625,
+            "top": 1212.609375,
+            "right": 1633.890625,
+            "bottom": 1244.5,
+            "left": 1333.890625
+          }
+        }
+      ]
+    },
+    {
+      "name": "freelance",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 12644,
+      "theme": "light",
+      "chapter": "freelance",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "freelance",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "13",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Useful interfaces. Thoughtfully built.",
+          "rect": {
+            "x": 505,
+            "y": 601.375,
+            "width": 740,
+            "height": 287.625,
+            "top": 601.375,
+            "right": 1245,
+            "bottom": 889,
+            "left": 505
+          }
+        },
+        {
+          "text": "Filostech",
+          "rect": {
+            "x": 505,
+            "y": 970,
+            "width": 1305.59375,
+            "height": 49.265625,
+            "top": 970,
+            "right": 1810.59375,
+            "bottom": 1019.265625,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "foundations",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 14156,
+      "theme": "light",
+      "chapter": "foundations",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "foundations",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "14",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "The foundation behind the work.",
+          "rect": {
+            "x": 505,
+            "y": 392.515625,
+            "width": 740,
+            "height": 199.90625,
+            "top": 392.515625,
+            "right": 1245,
+            "bottom": 592.421875,
+            "left": 505
+          }
+        },
+        {
+          "text": "B.Tech in Computer Science and Engineering",
+          "rect": {
+            "x": 505,
+            "y": 726.421875,
+            "width": 370,
+            "height": 71.28125,
+            "top": 726.421875,
+            "right": 875,
+            "bottom": 797.703125,
+            "left": 505
+          }
+        },
+        {
+          "text": "Red Hat Certified Enterprise Application Developer",
+          "rect": {
+            "x": 1446.234375,
+            "y": 693.421875,
+            "width": 400,
+            "height": 57.5,
+            "top": 693.421875,
+            "right": 1846.234375,
+            "bottom": 750.921875,
+            "left": 1446.234375
+          }
+        },
+        {
+          "text": "AWS Certified Cloud Practitioner",
+          "rect": {
+            "x": 1446.234375,
+            "y": 950,
+            "width": 400,
+            "height": 28.75,
+            "top": 950,
+            "right": 1846.234375,
+            "bottom": 978.75,
+            "left": 1446.234375
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 15971,
+      "theme": "light",
+      "chapter": "contact",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "contact",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "15",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Bring it together.",
+          "rect": {
+            "x": 505,
+            "y": 387.515625,
+            "width": 1356.796875,
+            "height": 281.5,
+            "top": 387.515625,
+            "right": 1861.796875,
+            "bottom": 669.015625,
+            "left": 505
+          }
+        }
+      ]
+    },
+    {
+      "name": "hero",
+      "width": 1440,
+      "height": 900,
+      "scroll": 0,
+      "theme": "light",
+      "chapter": "top",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "top",
+        "darkness": "0.000",
+        "mobileReading": "false",
+        "frameCount": "2",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 86.390625,
+            "y": 313.75,
+            "width": 777.59375,
+            "height": 220.3125,
+            "top": 313.75,
+            "right": 863.984375,
+            "bottom": 534.0625,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "orbit",
+      "width": 1440,
+      "height": 900,
+      "scroll": 252,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "mobileReading": "false",
+        "frameCount": "3",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 86.390625,
+            "y": 61.75,
+            "width": 777.59375,
+            "height": 220.3125,
+            "top": 61.75,
+            "right": 863.984375,
+            "bottom": 282.0625,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 86.390625,
+            "y": 880.5625,
+            "width": 707.4375,
+            "height": 95.453125,
+            "top": 880.5625,
+            "right": 793.828125,
+            "bottom": 976.015625,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "separation",
+      "width": 1440,
+      "height": 900,
+      "scroll": 486,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "mobileReading": "false",
+        "frameCount": "4",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 86.390625,
+            "y": -172.25,
+            "width": 777.59375,
+            "height": 220.3125,
+            "top": -172.25,
+            "right": 863.984375,
+            "bottom": 48.0625,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 86.390625,
+            "y": 646.5625,
+            "width": 707.4375,
+            "height": 95.453125,
+            "top": 646.5625,
+            "right": 793.828125,
+            "bottom": 742.015625,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "introduction",
+      "width": 1440,
+      "height": 900,
+      "scroll": 783,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "5",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 86.390625,
+            "y": 349.5625,
+            "width": 707.4375,
+            "height": 95.453125,
+            "top": 349.5625,
+            "right": 793.828125,
+            "bottom": 445.015625,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "experience-entry",
+      "width": 1440,
+      "height": 900,
+      "scroll": 1782,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "6",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "O.C. Tanner.",
+          "rect": {
+            "x": 86.390625,
+            "y": 398.859375,
+            "width": 734.390625,
+            "height": 117.5,
+            "top": 398.859375,
+            "right": 820.78125,
+            "bottom": 516.359375,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "applications",
+      "width": 1440,
+      "height": 900,
+      "scroll": 2726,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "7",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "From interface to implementation.",
+          "rect": {
+            "x": 316.78125,
+            "y": 242,
+            "width": 504,
+            "height": 101.59375,
+            "top": 242,
+            "right": 820.78125,
+            "bottom": 343.59375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "integrations",
+      "width": 1440,
+      "height": 900,
+      "scroll": 3437,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "8",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Making systems work together.",
+          "rect": {
+            "x": 316.78125,
+            "y": 242,
+            "width": 504,
+            "height": 101.59375,
+            "top": 242,
+            "right": 820.78125,
+            "bottom": 343.59375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "width": 1440,
+      "height": 900,
+      "scroll": 4148,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "9",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Following the issue to its source.",
+          "rect": {
+            "x": 316.78125,
+            "y": 242,
+            "width": 504,
+            "height": 101.59375,
+            "top": 242,
+            "right": 820.78125,
+            "bottom": 343.59375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "delivery",
+      "width": 1440,
+      "height": 900,
+      "scroll": 4859,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "mobileReading": "true",
+        "frameCount": "10",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "The work around the release.",
+          "rect": {
+            "x": 316.78125,
+            "y": 242,
+            "width": 504,
+            "height": 101.59375,
+            "top": 242,
+            "right": 820.78125,
+            "bottom": 343.59375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "width": 1440,
+      "height": 900,
+      "scroll": 6022,
+      "theme": "light",
+      "chapter": "research",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "research",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "11",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Finding the unusual.",
+          "rect": {
+            "x": 86.390625,
+            "y": 375.3125,
+            "width": 734.390625,
+            "height": 190.90625,
+            "top": 375.3125,
+            "right": 820.78125,
+            "bottom": 566.21875,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Studies on Anomaly Detection Techniques",
+          "rect": {
+            "x": 86.390625,
+            "y": 680.015625,
+            "width": 734.390625,
+            "height": 127.53125,
+            "top": 680.015625,
+            "right": 820.78125,
+            "bottom": 807.546875,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "approach",
+      "width": 1440,
+      "height": 900,
+      "scroll": 7057,
+      "theme": "light",
+      "chapter": "approach",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "approach",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "12",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Engineering judgment, amplified.",
+          "rect": {
+            "x": 86.390625,
+            "y": 321.46875,
+            "width": 734.390625,
+            "height": 242.34375,
+            "top": 321.46875,
+            "right": 820.78125,
+            "bottom": 563.8125,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "freelance",
+      "width": 1440,
+      "height": 900,
+      "scroll": 8631,
+      "theme": "light",
+      "chapter": "freelance",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "freelance",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "13",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Useful interfaces. Thoughtfully built.",
+          "rect": {
+            "x": 86.390625,
+            "y": 316.515625,
+            "width": 734.390625,
+            "height": 161.5625,
+            "top": 316.515625,
+            "right": 820.78125,
+            "bottom": 478.078125,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Filostech",
+          "rect": {
+            "x": 86.390625,
+            "y": 559.078125,
+            "width": 734.390625,
+            "height": 49.265625,
+            "top": 559.078125,
+            "right": 820.78125,
+            "bottom": 608.34375,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "foundations",
+      "width": 1440,
+      "height": 900,
+      "scroll": 9599,
+      "theme": "light",
+      "chapter": "foundations",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "foundations",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "14",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "The foundation behind the work.",
+          "rect": {
+            "x": 86.390625,
+            "y": 316.71875,
+            "width": 740,
+            "height": 167.4375,
+            "top": 316.71875,
+            "right": 826.390625,
+            "bottom": 484.15625,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "B.Tech in Computer Science and Engineering",
+          "rect": {
+            "x": 86.390625,
+            "y": 618.15625,
+            "width": 370,
+            "height": 71.28125,
+            "top": 618.15625,
+            "right": 456.390625,
+            "bottom": 689.4375,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Red Hat Certified Enterprise Application Developer",
+          "rect": {
+            "x": 630.953125,
+            "y": 585.15625,
+            "width": 400,
+            "height": 57.5,
+            "top": 585.15625,
+            "right": 1030.953125,
+            "bottom": 642.65625,
+            "left": 630.953125
+          }
+        },
+        {
+          "text": "AWS Certified Cloud Practitioner",
+          "rect": {
+            "x": 630.953125,
+            "y": 841.734375,
+            "width": 400,
+            "height": 28.75,
+            "top": 841.734375,
+            "right": 1030.953125,
+            "bottom": 870.484375,
+            "left": 630.953125
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "width": 1440,
+      "height": 900,
+      "scroll": 10733,
+      "theme": "light",
+      "chapter": "contact",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "contact",
+        "darkness": "0.000",
+        "mobileReading": "true",
+        "frameCount": "15",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1"
+      },
+      "headings": [
+        {
+          "text": "Bring it together.",
+          "rect": {
+            "x": 86.390625,
+            "y": 317.71875,
+            "width": 763.1875,
+            "height": 235,
+            "top": 317.71875,
+            "right": 849.578125,
+            "bottom": 552.71875,
+            "left": 86.390625
+          }
+        }
+      ]
+    }
+  ]
+}

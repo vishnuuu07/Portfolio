@@ -1,0 +1,1240 @@
+{
+  "errors": [],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead."
+  ],
+  "observations": [
+    {
+      "name": "hero",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 0,
+      "theme": "light",
+      "chapter": "top",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "top",
+        "darkness": "0.000",
+        "scene": "A / joined",
+        "frameCount": "2",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"top\",\"scene\":\"A / joined\",\"localProgress\":0,\"scroll\":0,\"darkness\":0,\"camera\":[6.5,5.4,15.8],\"target\":[0,3.15,0],\"beams\":[{\"position\":[-1.73,3.15,0],\"quaternion\":[0,0,0.224951054343865,0.9743700647852352],\"bounds\":{\"left\":0.5490404355677105,\"right\":0.7682372563080628,\"top\":0.16943196282172918,\"bottom\":0.8236964162572489}},{\"position\":[1.73,3.15,0],\"quaternion\":[0,0,-0.224951054343865,0.9743700647852352],\"bounds\":{\"left\":0.7309048878829991,\"right\":0.9736236065074653,\"top\":0.15704475310413918,\"bottom\":0.8426011685374573}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 153.59375,
+            "y": 446.21875,
+            "width": 1433.59375,
+            "height": 441.25,
+            "top": 446.21875,
+            "right": 1587.1875,
+            "bottom": 887.46875,
+            "left": 153.59375
+          }
+        }
+      ]
+    },
+    {
+      "name": "orbit",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 403,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "scene": "B / orbit",
+        "frameCount": "3",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"about\",\"scene\":\"B / orbit\",\"localProgress\":0.19177350427350418,\"scroll\":403,\"darkness\":0,\"camera\":[-6.8,7,16.2],\"target\":[0,3.15,0],\"beams\":[{\"position\":[-1.8137161788926566,3.212546570437042,0.02886764789401955],\"quaternion\":[0.001511166335435022,0.006545580523967196,0.22494597846310374,0.9743480787301771],\"bounds\":{\"left\":0.4967443141035116,\"right\":0.7324375666309165,\"top\":0.17663402920492977,\"bottom\":0.820614276401054}},{\"position\":[1.8137161788926566,3.212546570437042,-0.02886764789401955],\"quaternion\":[0.001511166335435022,-0.006545580523967196,-0.22494597846310374,0.9743480787301771],\"bounds\":{\"left\":0.7040194920679076,\"right\":0.9163888546446615,\"top\":0.16838139971291816,\"bottom\":0.7943379203421437}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 153.59375,
+            "y": 43.21875,
+            "width": 1433.59375,
+            "height": 441.25,
+            "top": 43.21875,
+            "right": 1587.1875,
+            "bottom": 484.46875,
+            "left": 153.59375
+          }
+        }
+      ]
+    },
+    {
+      "name": "separation",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 778,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "scene": "B / separation",
+        "frameCount": "4",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"about\",\"scene\":\"B / separation\",\"localProgress\":0.11692506459948318,\"scroll\":778,\"darkness\":0,\"camera\":[-6.641167184609,6.992436532600428,16.305888543593998],\"target\":[0,3.1632360679492497,0],\"beams\":[{\"position\":[-2.6848070325797675,3.923696490957967,0.3485862098840588],\"quaternion\":[0.01413742655865693,0.059416477095785826,0.2404264601569834,0.9687439974917041],\"bounds\":{\"left\":0.4099901109423366,\"right\":0.6695775049860478,\"top\":0.10312206574300442,\"bottom\":0.766646685666232}},{\"position\":[2.791465819073659,3.6805235402554235,-0.3154262420998507],\"quaternion\":[0.015797554283459476,-0.055448280890362675,-0.22742059356444858,0.972088369978655],\"bounds\":{\"left\":0.7184158834712133,\"right\":0.9329462179942178,\"top\":0.12463819674069865,\"bottom\":0.7284424170626493}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 153.59375,
+            "y": -331.78125,
+            "width": 1433.59375,
+            "height": 441.25,
+            "top": -331.78125,
+            "right": 1587.1875,
+            "bottom": 109.46875,
+            "left": 153.59375
+          }
+        },
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 153.59375,
+            "y": 1072.34375,
+            "width": 1996.796875,
+            "height": 81.59375,
+            "top": 1072.34375,
+            "right": 2150.390625,
+            "bottom": 1153.9375,
+            "left": 153.59375
+          }
+        }
+      ]
+    },
+    {
+      "name": "introduction",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 1253,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "scene": "C / foreground flight",
+        "frameCount": "5",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"about\",\"scene\":\"C / foreground flight\",\"localProgress\":0.8840439276485789,\"scroll\":1253,\"darkness\":0,\"camera\":[-2.75632057845018,6.807443837069056,18.895786281033214],\"target\":[0,3.4869732851291517,0],\"beams\":[{\"position\":[-5.252456130970857,6.949153742401018,1.4649736318207451],\"quaternion\":[-0.024078628511320456,-0.14892249038608305,0.593882771139046,0.7902819532612575],\"bounds\":{\"left\":-0.004980593365732977,\"right\":0.40569503700052734,\"top\":0.010293106267518615,\"bottom\":0.3393063088238374}},{\"position\":[8.276674069078018,0.7582828306640539,-0.5757156773662062],\"quaternion\":[0.017532935443239497,0.24859080998732894,-0.28836719759370666,0.92452126244697],\"bounds\":{\"left\":0.7815796223894522,\"right\":0.9941793740394571,\"top\":0.43782965657197165,\"bottom\":0.9654555812645752}}]}"
+      },
+      "headings": [
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 153.59375,
+            "y": 597.34375,
+            "width": 1996.796875,
+            "height": 81.59375,
+            "top": 597.34375,
+            "right": 2150.390625,
+            "bottom": 678.9375,
+            "left": 153.59375
+          }
+        }
+      ]
+    },
+    {
+      "name": "experience-entry",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 2851,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "D / entrance settled",
+        "frameCount": "6",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"D / entrance settled\",\"localProgress\":0.7302350427350428,\"scroll\":2851,\"darkness\":1,\"camera\":[2.6209438852742712,6.328377554109709,18.910471942637134],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-2.7571825759455058,7.10714133535535,0.7463348943323311],\"quaternion\":[0.1619499180144856,0.0776400788928686,0.6619339628484883,0.7277277451302147],\"bounds\":{\"left\":0.1523938890907709,\"right\":0.5265300382304292,\"top\":0.0743243773495012,\"bottom\":0.2342022657637916}},{\"position\":[7.71621386962234,0.8567029373662296,-2.293093561433217],\"quaternion\":[0.1779097827260488,-0.17304392542340094,-0.3397247819631575,0.9071885038979031],\"bounds\":{\"left\":0.7584984448941989,\"right\":1.0368719404779783,\"top\":0.4901964284036676,\"bottom\":0.9009594164707004}}]}"
+      },
+      "headings": [
+        {
+          "text": "O.C. Tanner.",
+          "rect": {
+            "x": 153.59375,
+            "y": 660.265625,
+            "width": 1920,
+            "height": 230,
+            "top": 660.265625,
+            "right": 2073.59375,
+            "bottom": 890.265625,
+            "left": 153.59375
+          }
+        }
+      ]
+    },
+    {
+      "name": "applications",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 4314,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "E / application",
+        "frameCount": "7",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"E / application\",\"localProgress\":0.3388888888888887,\"scroll\":4314,\"darkness\":1,\"camera\":[-3,7.8,20],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-2.3332369109341675,7.659732060877218,0.0996011048560616],\"quaternion\":[-0.04591620110283843,-0.19573620322205249,0.6673004862788384,0.7171395277325919],\"bounds\":{\"left\":0.20807045717434064,\"right\":0.5539766513146583,\"top\":0.04461971194119724,\"bottom\":0.22233462460696612}},{\"position\":[8.58285829274917,1.0224856997514515,0.26940697086798404],\"quaternion\":[0.0011153615278921974,0.2858057936291529,-0.0986270780099646,0.9531980401678806],\"bounds\":{\"left\":0.8255182835650248,\"right\":0.956970692483735,\"top\":0.41001280375086313,\"bottom\":0.9507421563246334}}]}"
+      },
+      "headings": [
+        {
+          "text": "From interface to implementation.",
+          "rect": {
+            "x": 563.171875,
+            "y": 351.390625,
+            "width": 1423.484375,
+            "height": 201.59375,
+            "top": 351.390625,
+            "right": 1986.65625,
+            "bottom": 552.984375,
+            "left": 563.171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "integrations",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 5682,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "F / integration settled",
+        "frameCount": "8",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"F / integration settled\",\"localProgress\":0.7152777777777772,\"scroll\":5682,\"darkness\":1,\"camera\":[5,5.6,18.8],\"target\":[0,3.5,0],\"beams\":[{\"position\":[3.8218062728310045,6.68128357546475,-0.7093988540014077],\"quaternion\":[0.18373498349967698,0.3086551602593439,0.5545127247057156,0.750659101072581],\"bounds\":{\"left\":0.5423373600762145,\"right\":0.8556003061086941,\"top\":0.02743181649466231,\"bottom\":0.34525859267427594}},{\"position\":[-8.114266993334164,0.2841261013028348,1.3724181781905156],\"quaternion\":[0.16310409377863536,-0.1570134504287299,-0.4792212093900986,0.8479922543560205],\"bounds\":{\"left\":0.014488035906182306,\"right\":0.19752783614694058,\"top\":0.6147618176613171,\"bottom\":0.9050519586429218}}]}"
+      },
+      "headings": [
+        {
+          "text": "Making systems work together.",
+          "rect": {
+            "x": 563.171875,
+            "y": 351.390625,
+            "width": 1229.375,
+            "height": 201.59375,
+            "top": 351.390625,
+            "right": 1792.546875,
+            "bottom": 552.984375,
+            "left": 563.171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 7050,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "G / production depth",
+        "frameCount": "9",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"G / production depth\",\"localProgress\":0.3388888888888887,\"scroll\":7050,\"darkness\":1,\"camera\":[-6.7,8.1,18.2],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-7.513045119019463,1.4046089322586144,0.3922263886555256],\"quaternion\":[0.015027227684792685,-0.2672340631165154,0.3491596876533717,0.8980243039340015],\"bounds\":{\"left\":-0.08272111166009954,\"right\":0.26225504521874177,\"top\":0.48910316132045983,\"bottom\":1.053704240060529}},{\"position\":[8.828026635308804,6.675931709855249,-0.2907606897759332],\"quaternion\":[0.32072614207822675,0.13184258355156564,0.5967005797142395,0.7236716749457286],\"bounds\":{\"left\":0.8012244544936429,\"right\":0.9255427114994097,\"top\":0.12208231766447569,\"bottom\":0.24334030542250057}}]}"
+      },
+      "headings": [
+        {
+          "text": "Following the issue to its source.",
+          "rect": {
+            "x": 563.171875,
+            "y": 351.390625,
+            "width": 1294.078125,
+            "height": 201.59375,
+            "top": 351.390625,
+            "right": 1857.25,
+            "bottom": 552.984375,
+            "left": 563.171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "delivery",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 8418,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "H / delivery resolution",
+        "frameCount": "10",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"H / delivery resolution\",\"localProgress\":0.25094936708860766,\"scroll\":8418,\"darkness\":1,\"camera\":[1.8,8.5,22],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-9.048117804455181,6.071178449841755,-1.0785701733718898],\"quaternion\":[-0.1229578613252125,-0.15869071586228903,0.22751187116150418,0.9528572660782071],\"bounds\":{\"left\":0.04623965682211517,\"right\":0.1950310852383524,\"top\":0.03653297302435349,\"bottom\":0.5229600646150612}},{\"position\":[8.294479823645668,1.5103643069135875,-0.3293253265854328],\"quaternion\":[0.002663183666025165,0.20843220295866738,-0.3746826425447399,0.9034167596398954],\"bounds\":{\"left\":0.744284565499765,\"right\":1.0004574391917598,\"top\":0.4359844342925117,\"bottom\":0.8838964157340476}}]}"
+      },
+      "headings": [
+        {
+          "text": "The work around the release.",
+          "rect": {
+            "x": 563.171875,
+            "y": 351.390625,
+            "width": 1423.484375,
+            "height": 100.796875,
+            "top": 351.390625,
+            "right": 1986.65625,
+            "bottom": 452.1875,
+            "left": 563.171875
+          }
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 10142,
+      "theme": "light",
+      "chapter": "research",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "research",
+        "darkness": "0.000",
+        "scene": "I / research daylight",
+        "frameCount": "11",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"research\",\"scene\":\"I / research daylight\",\"localProgress\":0.3328924162257493,\"scroll\":10142,\"darkness\":0,\"camera\":[3.8,6.7,20.5],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-3.2926885097213985,7.877334253675212,0.2357441897944968],\"quaternion\":[0.19226217450030875,0.10347853996228702,0.6821924612737317,0.6978115030615177],\"bounds\":{\"left\":0.17079701298757916,\"right\":0.500369960486107,\"top\":0.06909094496679313,\"bottom\":0.16885907917869336}},{\"position\":[8.778724683000448,0.08141513156394398,-2.5341654466294274],\"quaternion\":[0.12574701404956498,-0.14186601358624826,-0.308218215764607,0.9322356215665905],\"bounds\":{\"left\":0.7946396596629034,\"right\":1.0409183447500054,\"top\":0.5410025310175346,\"bottom\":0.9569345504086252}}]}"
+      },
+      "headings": [
+        {
+          "text": "Finding the unusual.",
+          "rect": {
+            "x": 153.59375,
+            "y": 518.765625,
+            "width": 1145.796875,
+            "height": 346.78125,
+            "top": 518.765625,
+            "right": 1299.390625,
+            "bottom": 865.546875,
+            "left": 153.59375
+          }
+        },
+        {
+          "text": "Studies on Anomaly Detection Techniques",
+          "rect": {
+            "x": 895.984375,
+            "y": 1002.9375,
+            "width": 1145.796875,
+            "height": 212,
+            "top": 1002.9375,
+            "right": 2041.78125,
+            "bottom": 1214.9375,
+            "left": 895.984375
+          }
+        }
+      ]
+    },
+    {
+      "name": "approach",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 11582,
+      "theme": "light",
+      "chapter": "approach",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "approach",
+        "darkness": "0.000",
+        "scene": "J / explore",
+        "frameCount": "12",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"approach\",\"scene\":\"J / explore\",\"localProgress\":0.7164547352438786,\"scroll\":11582,\"darkness\":0,\"camera\":[-3.5,7.2,22],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-9.142874013852031,0.47559071322319824,-1.1511870414264591],\"quaternion\":[0.01880647718352584,-0.12382305380870062,0.41267090065490986,0.9022288487485306],\"bounds\":{\"left\":-0.055432437958741976,\"right\":0.2248451351652394,\"top\":0.5355222436084964,\"bottom\":0.9415623767306616}},{\"position\":[8.902858466851216,5.69135178835468,0.5345944298696194],\"quaternion\":[0.009831568972389295,0.20204716710815918,-0.27357232354978744,0.9403395484093389],\"bounds\":{\"left\":0.79207014408967,\"right\":0.988087682186414,\"top\":0.07707908232171173,\"bottom\":0.5675638274413645}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering judgment, amplified.",
+          "rect": {
+            "x": 153.59375,
+            "y": 454.390625,
+            "width": 1740.796875,
+            "height": 295.78125,
+            "top": 454.390625,
+            "right": 1894.390625,
+            "bottom": 750.171875,
+            "left": 153.59375
+          }
+        },
+        {
+          "text": "Think beyond the first answer.",
+          "rect": {
+            "x": 153.59375,
+            "y": 1126.59375,
+            "width": 618.71875,
+            "height": 118.78125,
+            "top": 1126.59375,
+            "right": 772.3125,
+            "bottom": 1245.375,
+            "left": 153.59375
+          }
+        },
+        {
+          "text": "Turn ambiguity into a plan.",
+          "rect": {
+            "x": 1087.984375,
+            "y": 1126.59375,
+            "width": 618.71875,
+            "height": 118.78125,
+            "top": 1126.59375,
+            "right": 1706.703125,
+            "bottom": 1245.375,
+            "left": 1087.984375
+          }
+        }
+      ]
+    },
+    {
+      "name": "freelance",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 13498,
+      "theme": "light",
+      "chapter": "freelance",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "freelance",
+        "darkness": "0.000",
+        "scene": "K / project perspective",
+        "frameCount": "13",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"freelance\",\"scene\":\"K / project perspective\",\"localProgress\":0.48763500555163014,\"scroll\":13498,\"darkness\":0,\"camera\":[-5,7.1,21],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-8.11576917631059,7.296535912464065,0.8559350298492974],\"quaternion\":[0.5068825616033568,-0.20519050386289273,0.5576293966886735,0.6245129156515],\"bounds\":{\"left\":-0.13100003240071323,\"right\":0.2608370632289271,\"top\":0.08011344896739325,\"bottom\":0.29800758629658086}},{\"position\":[10.2071254724425,-0.60696058059749,0.2162977167629825],\"quaternion\":[0.15360703473544657,-0.15516903961840162,-0.4483635564729672,0.8667742319950442],\"bounds\":{\"left\":0.7788719399717297,\"right\":1.0571280113723742,\"top\":0.6125021241299148,\"bottom\":0.9198445255170276}}]}"
+      },
+      "headings": [
+        {
+          "text": "Useful interfaces. Thoughtfully built.",
+          "rect": {
+            "x": 153.59375,
+            "y": 528.203125,
+            "width": 691.1875,
+            "height": 391.625,
+            "top": 528.203125,
+            "right": 844.78125,
+            "bottom": 919.828125,
+            "left": 153.59375
+          }
+        },
+        {
+          "text": "Filostech",
+          "rect": {
+            "x": 998.375,
+            "y": 500.8125,
+            "width": 1075.1875,
+            "height": 145.1875,
+            "top": 500.8125,
+            "right": 2073.5625,
+            "bottom": 646,
+            "left": 998.375
+          }
+        }
+      ]
+    },
+    {
+      "name": "foundations",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 14622,
+      "theme": "light",
+      "chapter": "foundations",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "foundations",
+        "darkness": "0.000",
+        "scene": "L / foundations breathing room",
+        "frameCount": "14",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"foundations\",\"scene\":\"L / foundations breathing room\",\"localProgress\":0.5842444563716305,\"scroll\":14622,\"darkness\":0,\"camera\":[1,7.6,27],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-12.686296558129929,7.5402541432685135,-3.180082199026632],\"quaternion\":[0.15739601663287506,0.09976319737218009,0.5872451019755636,0.7876655309227979],\"bounds\":{\"left\":-0.04630098408807759,\"right\":0.1950025781773757,\"top\":0.1441111799170402,\"bottom\":0.31132432936051097}},{\"position\":[12.845798040730415,-1.910318816403489,-3.702769980965687],\"quaternion\":[0.11378285230714877,-0.14757934856431104,-0.28243241114020107,0.9410131410005471],\"bounds\":{\"left\":0.8386480643502388,\"right\":1.0092925570230091,\"top\":0.6167383511229748,\"bottom\":0.9342374171250207}}]}"
+      },
+      "headings": [
+        {
+          "text": "The foundation behind the work.",
+          "rect": {
+            "x": 153.59375,
+            "y": 343.640625,
+            "width": 1213.1875,
+            "height": 244.78125,
+            "top": 343.640625,
+            "right": 1366.78125,
+            "bottom": 588.421875,
+            "left": 153.59375
+          }
+        },
+        {
+          "text": "B.Tech in Computer Science and Engineering",
+          "rect": {
+            "x": 153.59375,
+            "y": 719.015625,
+            "width": 736,
+            "height": 119.59375,
+            "top": 719.015625,
+            "right": 889.59375,
+            "bottom": 838.609375,
+            "left": 153.59375
+          }
+        },
+        {
+          "text": "Red Hat Certified Enterprise Application Developer",
+          "rect": {
+            "x": 1172.703125,
+            "y": 679.421875,
+            "width": 707.6875,
+            "height": 96.59375,
+            "top": 679.421875,
+            "right": 1880.390625,
+            "bottom": 776.015625,
+            "left": 1172.703125
+          }
+        },
+        {
+          "text": "AWS Certified Cloud Practitioner",
+          "rect": {
+            "x": 1172.703125,
+            "y": 982.984375,
+            "width": 707.6875,
+            "height": 48.296875,
+            "top": 982.984375,
+            "right": 1880.390625,
+            "bottom": 1031.28125,
+            "left": 1172.703125
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "width": 2560,
+      "height": 1440,
+      "scroll": 15773,
+      "theme": "light",
+      "chapter": "contact",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "contact",
+        "darkness": "0.000",
+        "scene": "M / return",
+        "frameCount": "15",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"contact\",\"scene\":\"M / return\",\"localProgress\":0.9554323682598039,\"scroll\":15773,\"darkness\":0,\"camera\":[7.16415299897806,6.605781774358377,19.046254194867018],\"target\":[0,3.152023621025432,0],\"beams\":[{\"position\":[-1.7860899568667392,3.17538345883231,-0.018655290961636428],\"quaternion\":[0.0009417678573584675,0.0005969259873429602,0.22725321119680064,0.9738350654774199],\"bounds\":{\"left\":0.5743412911414807,\"right\":0.7616781229612869,\"top\":0.21894598768204637,\"bottom\":0.7658782089592625}},{\"position\":[1.7867728772700442,3.1207423784221033,-0.021130945019259606],\"quaternion\":[0.0006621923285495186,-0.0008588808461912871,-0.22531105849838282,0.9742862776121556],\"bounds\":{\"left\":0.7362549774550539,\"right\":0.9373322177237923,\"top\":0.2261283755164472,\"bottom\":0.7863538833792172}}]}"
+      },
+      "headings": [
+        {
+          "text": "Bring it together.",
+          "rect": {
+            "x": 153.59375,
+            "y": 400.03125,
+            "width": 1484.796875,
+            "height": 440.625,
+            "top": 400.03125,
+            "right": 1638.390625,
+            "bottom": 840.65625,
+            "left": 153.59375
+          }
+        }
+      ]
+    },
+    {
+      "name": "hero",
+      "width": 1440,
+      "height": 900,
+      "scroll": 0,
+      "theme": "light",
+      "chapter": "top",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "top",
+        "darkness": "0.000",
+        "scene": "A / joined",
+        "frameCount": "2",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"top\",\"scene\":\"A / joined\",\"localProgress\":0,\"scroll\":0,\"darkness\":0,\"camera\":[6.5,5.4,15.8],\"target\":[0,3.15,0],\"beams\":[{\"position\":[-1.73,3.15,0],\"quaternion\":[0,0,0.224951054343865,0.9743700647852352],\"bounds\":{\"left\":0.526711595075234,\"right\":0.7702636181200697,\"top\":0.16943196282172918,\"bottom\":0.8236964162572489}},{\"position\":[1.73,3.15,0],\"quaternion\":[0,0,-0.224951054343865,0.9743700647852352],\"bounds\":{\"left\":0.7287832087588879,\"right\":0.9984706738971836,\"top\":0.15704475310413918,\"bottom\":0.8426011685374573}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 86.390625,
+            "y": 277.53125,
+            "width": 806.390625,
+            "height": 248.21875,
+            "top": 277.53125,
+            "right": 892.78125,
+            "bottom": 525.75,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "orbit",
+      "width": 1440,
+      "height": 900,
+      "scroll": 252,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "scene": "B / orbit",
+        "frameCount": "3",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"about\",\"scene\":\"B / orbit\",\"localProgress\":0.19230769230769232,\"scroll\":252,\"darkness\":0,\"camera\":[-6.8,7,16.2],\"target\":[0,3.15,0],\"beams\":[{\"position\":[-1.814148839326354,3.212869822485207,0.029016841147018663],\"quaternion\":[0.0015189761994170142,0.006579408761386635,0.224945925861577,0.9743478508879331],\"bounds\":{\"left\":0.4721124977442933,\"right\":0.734001147402721,\"top\":0.17660010799935905,\"bottom\":0.8205926165515633}},{\"position\":[1.814148839326354,3.212869822485207,-0.029016841147018663],\"quaternion\":[0.0015189761994170142,-0.006579408761386635,-0.224945925861577,0.9743478508879331],\"bounds\":{\"left\":0.7024672862062764,\"right\":0.9384345286816973,\"top\":0.1683490940412946,\"bottom\":0.7942954409965782}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 86.390625,
+            "y": 25.53125,
+            "width": 806.390625,
+            "height": 248.21875,
+            "top": 25.53125,
+            "right": 892.78125,
+            "bottom": 273.75,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 86.390625,
+            "y": 837.9375,
+            "width": 1123.1875,
+            "height": 49.921875,
+            "top": 837.9375,
+            "right": 1209.578125,
+            "bottom": 887.859375,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "separation",
+      "width": 1440,
+      "height": 900,
+      "scroll": 486,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "scene": "B / separation",
+        "frameCount": "4",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"about\",\"scene\":\"B / separation\",\"localProgress\":0.11627906976744186,\"scroll\":486,\"darkness\":0,\"camera\":[-6.642844026312148,6.99251638220534,16.304770649125235],\"target\":[0,3.1630963311406544,0],\"beams\":[{\"position\":[-2.6839117014191385,3.922390593092587,0.3480732719075398],\"quaternion\":[0.014153862682475845,0.05950687598947628,0.24025771790330402,0.9687800724978992],\"bounds\":{\"left\":0.37881587204911704,\"right\":0.6671073970095309,\"top\":0.103216479026427,\"bottom\":0.7667897256551257}},{\"position\":[2.7894444617781926,3.6817848860909863,-0.315263383020559],\"quaternion\":[0.015796451381747366,-0.055580513246812555,-0.22738893305679508,0.972088242802194],\"bounds\":{\"left\":0.7212839184681121,\"right\":0.959640328784165,\"top\":0.12449142129522006,\"bottom\":0.7283424848834482}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering in motion.",
+          "rect": {
+            "x": 86.390625,
+            "y": -208.46875,
+            "width": 806.390625,
+            "height": 248.21875,
+            "top": -208.46875,
+            "right": 892.78125,
+            "bottom": 39.75,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 86.390625,
+            "y": 603.9375,
+            "width": 1123.1875,
+            "height": 49.921875,
+            "top": 603.9375,
+            "right": 1209.578125,
+            "bottom": 653.859375,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "introduction",
+      "width": 1440,
+      "height": 900,
+      "scroll": 783,
+      "theme": "light",
+      "chapter": "about",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "about",
+        "darkness": "0.000",
+        "scene": "C / foreground flight",
+        "frameCount": "5",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"about\",\"scene\":\"C / foreground flight\",\"localProgress\":0.8837209302325582,\"scroll\":783,\"darkness\":0,\"camera\":[-2.7571559736878513,6.807483617794659,18.895229350874764],\"target\":[0,3.4869036688593456,0],\"beams\":[{\"position\":[-4.758632044709077,6.948503149768705,1.536686939706835],\"quaternion\":[-0.024070662940129734,-0.14887946131518212,0.5938174260557131,0.7903394041148978],\"bounds\":{\"left\":-0.02758750056545034,\"right\":0.4278322329208971,\"top\":0.010293700799484662,\"bottom\":0.33941673962284985}},{\"position\":[7.4734667390953415,0.7589112276690355,-0.6926511695224951],\"quaternion\":[0.017532744622724444,0.24852700962675162,-0.2883569742913373,0.9245416073544359],\"bounds\":{\"left\":0.7695491751973584,\"right\":1.0061012350174015,\"top\":0.4377667487029027,\"bottom\":0.9654031560072442}}]}"
+      },
+      "headings": [
+        {
+          "text": "Across the layers.",
+          "rect": {
+            "x": 86.390625,
+            "y": 306.9375,
+            "width": 1123.1875,
+            "height": 49.921875,
+            "top": 306.9375,
+            "right": 1209.578125,
+            "bottom": 356.859375,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "experience-entry",
+      "width": 1440,
+      "height": 900,
+      "scroll": 1782,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "D / entrance settled",
+        "frameCount": "6",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"D / entrance settled\",\"localProgress\":0.7307692307692307,\"scroll\":1782,\"darkness\":1,\"camera\":[2.6215748748293124,6.328629949931726,18.910787437414655],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-2.4771019260618212,7.108569315506811,0.7063180444889143],\"quaternion\":[0.16198740417715127,0.07764296715170146,0.661929911628011,0.7277227786952677],\"bounds\":{\"left\":0.13214998259706018,\"right\":0.5466953900625204,\"top\":0.0742009992642575,\"bottom\":0.2340676282425213}},{\"position\":[6.928271506398775,0.8570499635026003,-2.184186645230692],\"quaternion\":[0.17785424141653045,-0.17304975363351177,-0.3396331604422388,0.9072325875460758],\"bounds\":{\"left\":0.7475364337941276,\"right\":1.0497896187066025,\"top\":0.4901183321224678,\"bottom\":0.9009653925226382}}]}"
+      },
+      "headings": [
+        {
+          "text": "O.C. Tanner.",
+          "rect": {
+            "x": 86.390625,
+            "y": 386.546875,
+            "width": 1080,
+            "height": 133.921875,
+            "top": 386.546875,
+            "right": 1166.390625,
+            "bottom": 520.46875,
+            "left": 86.390625
+          }
+        }
+      ]
+    },
+    {
+      "name": "applications",
+      "width": 1440,
+      "height": 900,
+      "scroll": 2726,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "E / application",
+        "frameCount": "7",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"E / application\",\"localProgress\":0.3384615384615385,\"scroll\":2726,\"darkness\":1,\"camera\":[-3,7.8,20],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-2.1065086228944847,7.659732060877218,0.133610348062014],\"quaternion\":[-0.04591620110283843,-0.19573620322205249,0.6673004862788384,0.7171395277325919],\"bounds\":{\"left\":0.18906414089891865,\"right\":0.5734961141336424,\"top\":0.04461971194119724,\"bottom\":0.22233462460696612}},{\"position\":[7.7395067682132925,1.0224856997514515,0.14290424218760228],\"quaternion\":[0.0011153615278921974,0.2858057936291529,-0.0986270780099646,0.9531980401678806],\"bounds\":{\"left\":0.8191588933924538,\"right\":0.9635755533214705,\"top\":0.4100128037508632,\"bottom\":0.9507421563246334}}]}"
+      },
+      "headings": [
+        {
+          "text": "From interface to implementation.",
+          "rect": {
+            "x": 316.78125,
+            "y": 250.390625,
+            "width": 875.4375,
+            "height": 123.96875,
+            "top": 250.390625,
+            "right": 1192.21875,
+            "bottom": 374.359375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "integrations",
+      "width": 1440,
+      "height": 900,
+      "scroll": 3581,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "F / integration settled",
+        "frameCount": "8",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"F / integration settled\",\"localProgress\":0.7142857142857143,\"scroll\":3581,\"darkness\":1,\"camera\":[5,5.6,18.8],\"target\":[0,3.5,0],\"beams\":[{\"position\":[3.442128054833035,6.679130978458883,-0.606664574273521],\"quaternion\":[0.18364726799377873,0.30852546455355195,0.5545875282220558,0.7506786211295661],\"bounds\":{\"left\":0.5222325302803533,\"right\":0.8729947161020704,\"top\":0.027681311041572787,\"bottom\":0.3454246516346703}},{\"position\":[-7.321471092020912,0.28329632102841606,1.1616608926591334],\"quaternion\":[0.16312238286244374,-0.1569944496858518,-0.47931998710154944,0.8479364250591465],\"bounds\":{\"left\":0.0016102555642062977,\"right\":0.2130222778105743,\"top\":0.6149012111563467,\"bottom\":0.9050659348720662}}]}"
+      },
+      "headings": [
+        {
+          "text": "Making systems work together.",
+          "rect": {
+            "x": 316.78125,
+            "y": 250.390625,
+            "width": 756.0625,
+            "height": 123.96875,
+            "top": 250.390625,
+            "right": 1072.84375,
+            "bottom": 374.359375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "width": 1440,
+      "height": 900,
+      "scroll": 4436,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "G / production depth",
+        "frameCount": "9",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"G / production depth\",\"localProgress\":0.3384615384615385,\"scroll\":4436,\"darkness\":1,\"camera\":[-6.7,8.1,18.2],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-6.864122411606774,1.4046089322586144,0.6311155172085486],\"quaternion\":[0.015027227684792685,-0.2672340631165154,0.3491596876533717,0.8980243039340013],\"bounds\":{\"left\":-0.10022045379636135,\"right\":0.2777943363483799,\"top\":0.48910316132045983,\"bottom\":1.053704240060529}},{\"position\":[8.060010209028421,6.675931709855249,-0.573492011538492],\"quaternion\":[0.32072614207822675,0.13184258355156564,0.5967005797142395,0.7236716749457285],\"bounds\":{\"left\":0.7886854464154965,\"right\":0.9356691380227572,\"top\":0.12208231766447575,\"bottom\":0.24334030542250057}}]}"
+      },
+      "headings": [
+        {
+          "text": "Following the issue to its source.",
+          "rect": {
+            "x": 316.78125,
+            "y": 250.390625,
+            "width": 795.84375,
+            "height": 123.96875,
+            "top": 250.390625,
+            "right": 1112.625,
+            "bottom": 374.359375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "delivery",
+      "width": 1440,
+      "height": 900,
+      "scroll": 5291,
+      "theme": "dark",
+      "chapter": "experience",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "experience",
+        "darkness": "1.000",
+        "scene": "H / delivery resolution",
+        "frameCount": "10",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"experience\",\"scene\":\"H / delivery resolution\",\"localProgress\":0.22688533982668482,\"scroll\":5291,\"darkness\":1,\"camera\":[1.8,8.5,22],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-8.15808873490203,6.071178449841755,-1.1513907336080567],\"quaternion\":[-0.12295786132521251,-0.15869071586228903,0.22751187116150418,0.9528572660782071],\"bounds\":{\"left\":0.037686520968368886,\"right\":0.20373157438534506,\"top\":0.03653297302435349,\"bottom\":0.5229600646150613}},{\"position\":[7.467870859361685,1.5103643069135875,-0.2616936840531069],\"quaternion\":[0.002663183666025165,0.20843220295866738,-0.37468264254473993,0.9034167596398954],\"bounds\":{\"left\":0.7310633589173976,\"right\":1.0141773516322459,\"top\":0.43598443429251166,\"bottom\":0.8838964157340475}}]}"
+      },
+      "headings": [
+        {
+          "text": "The work around the release.",
+          "rect": {
+            "x": 316.78125,
+            "y": 250.390625,
+            "width": 875.4375,
+            "height": 61.984375,
+            "top": 250.390625,
+            "right": 1192.21875,
+            "bottom": 312.375,
+            "left": 316.78125
+          }
+        }
+      ]
+    },
+    {
+      "name": "research",
+      "width": 1440,
+      "height": 900,
+      "scroll": 6452,
+      "theme": "light",
+      "chapter": "research",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "research",
+        "darkness": "0.000",
+        "scene": "I / research daylight",
+        "frameCount": "11",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"research\",\"scene\":\"I / research daylight\",\"localProgress\":0.31057110632625856,\"scroll\":6452,\"darkness\":0,\"camera\":[3.8,6.7,20.5],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-2.970132937107488,7.877334253675212,0.1759534007246012],\"quaternion\":[0.19226217450030875,0.10347853996228702,0.6821924612737317,0.6978115030615176],\"bounds\":{\"left\":0.15324125159676694,\"right\":0.5180585036081027,\"top\":0.06909094496679297,\"bottom\":0.16885907917869342}},{\"position\":[7.884600011090956,0.08141513156394398,-2.3684252635437657],\"quaternion\":[0.12574701404956498,-0.14186601358624826,-0.308218215764607,0.9322356215665905],\"bounds\":{\"left\":0.7845286974742771,\"right\":1.0523929159041545,\"top\":0.5410025310175345,\"bottom\":0.9569345504086252}}]}"
+      },
+      "headings": [
+        {
+          "text": "Finding the unusual.",
+          "rect": {
+            "x": 86.390625,
+            "y": 307.671875,
+            "width": 669.671875,
+            "height": 202.6875,
+            "top": 307.671875,
+            "right": 756.0625,
+            "bottom": 510.359375,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Studies on Anomaly Detection Techniques",
+          "rect": {
+            "x": 503.984375,
+            "y": 647.75,
+            "width": 692.96875,
+            "height": 128.21875,
+            "top": 647.75,
+            "right": 1196.953125,
+            "bottom": 775.96875,
+            "left": 503.984375
+          }
+        }
+      ]
+    },
+    {
+      "name": "approach",
+      "width": 1440,
+      "height": 900,
+      "scroll": 7394,
+      "theme": "light",
+      "chapter": "approach",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "approach",
+        "darkness": "0.000",
+        "scene": "J / explore",
+        "frameCount": "12",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"approach\",\"scene\":\"J / explore\",\"localProgress\":0.5447330447330447,\"scroll\":7394,\"darkness\":0,\"camera\":[-3.5,7.2,22],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-8.233293676341862,0.47559071322319824,-1.0064810786407503],\"quaternion\":[0.01880647718352584,-0.1238230538087006,0.41267090065490986,0.9022288487485306],\"bounds\":{\"left\":-0.06980321115053656,\"right\":0.2381697337257495,\"top\":0.5355222436084964,\"bottom\":0.9415623767306616}},{\"position\":[8.026254483162361,5.69135178835468,0.395134705191847],\"quaternion\":[0.009831568972389295,0.20204716710815918,-0.27357232354978744,0.940339548409339],\"bounds\":{\"left\":0.7812239113610335,\"right\":0.9989513949828518,\"top\":0.07707908232171162,\"bottom\":0.5675638274413646}}]}"
+      },
+      "headings": [
+        {
+          "text": "Engineering judgment, amplified.",
+          "rect": {
+            "x": 86.390625,
+            "y": 308.234375,
+            "width": 979.1875,
+            "height": 177.71875,
+            "top": 308.234375,
+            "right": 1065.578125,
+            "bottom": 485.953125,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Think beyond the first answer.",
+          "rect": {
+            "x": 86.390625,
+            "y": 862.375,
+            "width": 404.234375,
+            "height": 77.59375,
+            "top": 862.375,
+            "right": 490.625,
+            "bottom": 939.96875,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Turn ambiguity into a plan.",
+          "rect": {
+            "x": 611.984375,
+            "y": 862.375,
+            "width": 404.234375,
+            "height": 77.59375,
+            "top": 862.375,
+            "right": 1016.21875,
+            "bottom": 939.96875,
+            "left": 611.984375
+          }
+        }
+      ]
+    },
+    {
+      "name": "freelance",
+      "width": 1440,
+      "height": 900,
+      "scroll": 8969,
+      "theme": "light",
+      "chapter": "freelance",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "freelance",
+        "darkness": "0.000",
+        "scene": "K / project perspective",
+        "frameCount": "13",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"freelance\",\"scene\":\"K / project perspective\",\"localProgress\":0.4063445124000269,\"scroll\":8969,\"darkness\":0,\"camera\":[-5,7.1,21],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-7.367017882615571,7.296535912464065,1.0342091473957304],\"quaternion\":[0.5068825616033568,-0.20519050386289273,0.5576293966886735,0.6245129156515],\"bounds\":{\"left\":-0.14924868895408794,\"right\":0.27772114118897967,\"top\":0.08011344896739342,\"bottom\":0.29800758629658086}},{\"position\":[9.236298521024636,-0.60696058059749,-0.014851557384128133],\"quaternion\":[0.15360703473544657,-0.15516903961840162,-0.4483635564729672,0.8667742319950442],\"bounds\":{\"left\":0.766779204814567,\"right\":1.0706962749106481,\"top\":0.6125021241299148,\"bottom\":0.9198445255170276}}]}"
+      },
+      "headings": [
+        {
+          "text": "Useful interfaces. Thoughtfully built.",
+          "rect": {
+            "x": 86.390625,
+            "y": 308.046875,
+            "width": 388.796875,
+            "height": 240.875,
+            "top": 308.046875,
+            "right": 475.1875,
+            "bottom": 548.921875,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Filostech",
+          "rect": {
+            "x": 561.578125,
+            "y": 280.65625,
+            "width": 604.796875,
+            "height": 90.28125,
+            "top": 280.65625,
+            "right": 1166.375,
+            "bottom": 370.9375,
+            "left": 561.578125
+          }
+        }
+      ]
+    },
+    {
+      "name": "foundations",
+      "width": 1440,
+      "height": 900,
+      "scroll": 9749,
+      "theme": "light",
+      "chapter": "foundations",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "foundations",
+        "darkness": "0.000",
+        "scene": "L / foundations breathing room",
+        "frameCount": "14",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"foundations\",\"scene\":\"L / foundations breathing room\",\"localProgress\":0.30838666904658696,\"scroll\":9749,\"darkness\":0,\"camera\":[1,7.6,27],\"target\":[0,3.5,0],\"beams\":[{\"position\":[-11.431166699019931,7.5402541432685135,-3.22656849010478],\"quaternion\":[0.15739601663287506,0.09976319737218009,0.5872451019755636,0.787665530922798],\"bounds\":{\"left\":-0.05780612663823437,\"right\":0.2068067973228246,\"top\":0.1441111799170402,\"bottom\":0.3113243293605109}},{\"position\":[11.549282758377192,-1.910318816403489,-3.654750896434086],\"quaternion\":[0.11378285230714877,-0.14757934856431104,-0.28243241114020107,0.9410131410005471],\"bounds\":{\"left\":0.8311163670917738,\"right\":1.016145217941721,\"top\":0.6167383511229748,\"bottom\":0.9342374171250207}}]}"
+      },
+      "headings": [
+        {
+          "text": "The foundation behind the work.",
+          "rect": {
+            "x": 86.390625,
+            "y": 268.421875,
+            "width": 756.921875,
+            "height": 152.71875,
+            "top": 268.421875,
+            "right": 843.3125,
+            "bottom": 421.140625,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "B.Tech in Computer Science and Engineering",
+          "rect": {
+            "x": 86.390625,
+            "y": 551.734375,
+            "width": 486.859375,
+            "height": 82.78125,
+            "top": 551.734375,
+            "right": 573.25,
+            "bottom": 634.515625,
+            "left": 86.390625
+          }
+        },
+        {
+          "text": "Red Hat Certified Enterprise Application Developer",
+          "rect": {
+            "x": 659.640625,
+            "y": 512.140625,
+            "width": 485.265625,
+            "height": 66.21875,
+            "top": 512.140625,
+            "right": 1144.90625,
+            "bottom": 578.359375,
+            "left": 659.640625
+          }
+        },
+        {
+          "text": "AWS Certified Cloud Practitioner",
+          "rect": {
+            "x": 659.640625,
+            "y": 785.328125,
+            "width": 485.265625,
+            "height": 33.109375,
+            "top": 785.328125,
+            "right": 1144.90625,
+            "bottom": 818.4375,
+            "left": 659.640625
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "width": 1440,
+      "height": 900,
+      "scroll": 10758,
+      "theme": "light",
+      "chapter": "contact",
+      "overflow": false,
+      "stage": {
+        "portfolioStage": "",
+        "ready": "true",
+        "mode": "full",
+        "chapter": "contact",
+        "darkness": "0.000",
+        "scene": "M / return",
+        "frameCount": "15",
+        "beamCount": "2",
+        "geometry": "shared-1x6.5x1",
+        "inspection": "{\"chapter\":\"contact\",\"scene\":\"M / return\",\"localProgress\":0.9562142565359477,\"scroll\":10758,\"darkness\":0,\"camera\":[7.165381167281425,6.605583682696544,19.044669461572354],\"target\":[0,3.1519542889437906,0],\"beams\":[{\"position\":[-1.7841682366336098,3.1745137860931996,-0.01801613464741303],\"quaternion\":[0.000909501645422737,0.0005764745138008749,0.22717436167516694,0.97385350534943],\"bounds\":{\"left\":0.555130002541231,\"right\":0.7632471159518313,\"top\":0.2189895423402038,\"bottom\":0.7660012587750453}},{\"position\":[1.7848277592304278,3.121744785385851,-0.020406969340598824],\"quaternion\":[0.0006395047042668836,-0.000829454401483566,-0.22529872914417912,0.9742891694384921],\"bounds\":{\"left\":0.734823182585175,\"right\":0.9582454563570246,\"top\":0.22601339743037524,\"bottom\":0.7862854866209545}}]}"
+      },
+      "headings": [
+        {
+          "text": "Bring it together.",
+          "rect": {
+            "x": 86.390625,
+            "y": 329.1875,
+            "width": 835.1875,
+            "height": 249.6875,
+            "top": 329.1875,
+            "right": 921.578125,
+            "bottom": 578.875,
+            "left": 86.390625
+          }
+        }
+      ]
+    }
+  ]
+}

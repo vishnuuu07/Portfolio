@@ -1,0 +1,1099 @@
+{
+  "info": {
+    "timeline": {
+      "anchors": [
+        {
+          "at": 0,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.08,
+                  3.15,
+                  0.3
+                ],
+                "quaternion": [
+                  0.09861205166413217,
+                  -0.42713572269685124,
+                  0.20218466835298624,
+                  0.8757580131211031
+                ]
+              },
+              {
+                "position": [
+                  1.875,
+                  3.15,
+                  -0.15
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  -0.224951054343865,
+                  0.9743700647852352
+                ]
+              }
+            ],
+            "camera": [
+              -5.8,
+              5,
+              12.8
+            ],
+            "target": [
+              0,
+              3.2,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "top",
+            "scene": "opening / joined V",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0.15,
+            "keyLight": [
+              8,
+              9,
+              5
+            ]
+          }
+        },
+        {
+          "at": 180,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.08,
+                  3.15,
+                  0.3
+                ],
+                "quaternion": [
+                  0.09861205166413217,
+                  -0.42713572269685124,
+                  0.20218466835298624,
+                  0.8757580131211031
+                ]
+              },
+              {
+                "position": [
+                  1.875,
+                  3.15,
+                  -0.15
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  -0.224951054343865,
+                  0.9743700647852352
+                ]
+              }
+            ],
+            "camera": [
+              -5.8,
+              5,
+              12.8
+            ],
+            "target": [
+              0,
+              3.2,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "top",
+            "scene": "opening / joined V",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0.15,
+            "keyLight": [
+              8,
+              9,
+              5
+            ]
+          }
+        },
+        {
+          "at": 198,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.5,
+                  3.7,
+                  0.7
+                ],
+                "quaternion": [
+                  0.09149583670018555,
+                  -0.3963120092642965,
+                  0.20550301388775175,
+                  0.8901313467474784
+                ]
+              },
+              {
+                "position": [
+                  2.3,
+                  3.7,
+                  -0.5
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  -0.224951054343865,
+                  0.9743700647852352
+                ]
+              }
+            ],
+            "camera": [
+              -3.2,
+              5.1,
+              11.7
+            ],
+            "target": [
+              0,
+              3.2,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "about",
+            "scene": "reveal 1 / feet separate",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0.16,
+            "keyLight": [
+              8,
+              9,
+              5
+            ]
+          }
+        },
+        {
+          "at": 756,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.068112662376556,
+                  9.14806972152153,
+                  0.8703123787579072
+                ],
+                "quaternion": [
+                  0.09719865004834558,
+                  -0.015394753788207677,
+                  0.5888617583455378,
+                  0.8022202026518537
+                ]
+              },
+              {
+                "position": [
+                  4.77596421457134,
+                  4.893557560561506,
+                  -2.401567488246738
+                ],
+                "quaternion": [
+                  0.023993338459323398,
+                  -0.07857747657327815,
+                  -0.2550037806229519,
+                  0.9634432893289328
+                ]
+              }
+            ],
+            "camera": [
+              4.8,
+              7.7,
+              13.6
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "about",
+            "scene": "reveal 1 / lateral aperture",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 1305,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.068112662376556,
+                  9.14806972152153,
+                  0.8703123787579072
+                ],
+                "quaternion": [
+                  0.09719865004834558,
+                  -0.015394753788207677,
+                  0.5888617583455378,
+                  0.8022202026518537
+                ]
+              },
+              {
+                "position": [
+                  4.77596421457134,
+                  4.893557560561506,
+                  -2.401567488246738
+                ],
+                "quaternion": [
+                  0.023993338459323398,
+                  -0.07857747657327815,
+                  -0.2550037806229519,
+                  0.9634432893289328
+                ]
+              }
+            ],
+            "camera": [
+              4.8,
+              7.7,
+              13.6
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "about",
+            "scene": "reveal 1 / lateral aperture",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 1908,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.5096409060192513,
+                  9.307446507337424,
+                  1.242124673013584
+                ],
+                "quaternion": [
+                  0.0976767084160231,
+                  -0.011993191753302455,
+                  0.6165001209899937,
+                  0.7811805327860536
+                ]
+              },
+              {
+                "position": [
+                  4.489198237238855,
+                  4.5534197101235625,
+                  -2.798821670402876
+                ],
+                "quaternion": [
+                  0.02261831809968872,
+                  -0.0789842503375769,
+                  -0.2717793461766663,
+                  0.95884612262695
+                ]
+              }
+            ],
+            "camera": [
+              5.8,
+              8,
+              13.6
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 1,
+            "chapter": "experience",
+            "scene": "reveal 1 / enterprise",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 6623,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.9290477416916194,
+                  9.055492715363343,
+                  1.2680908949549654
+                ],
+                "quaternion": [
+                  0.09787114183718251,
+                  -0.010286671517375626,
+                  0.6300397051945575,
+                  0.7703021445270256
+                ]
+              },
+              {
+                "position": [
+                  4.751093147216424,
+                  4.869708061626385,
+                  -2.80983923797552
+                ],
+                "quaternion": [
+                  0.023993338459323398,
+                  -0.07857747657327815,
+                  -0.2550037806229519,
+                  0.9634432893289328
+                ]
+              }
+            ],
+            "camera": [
+              6.2,
+              8.4,
+              13.2
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 1,
+            "chapter": "experience",
+            "scene": "reveal 1 / outer limits",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 7523,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  1.3664354318221752,
+                  8.674588317855271,
+                  0.43742733049490157
+                ],
+                "quaternion": [
+                  0.10511420609381503,
+                  0.202868401322417,
+                  0.44249740878540894,
+                  0.8671744107388966
+                ]
+              },
+              {
+                "position": [
+                  4.804480161788954,
+                  3.6913975645005976,
+                  -1.3355203085665976
+                ],
+                "quaternion": [
+                  0.10511420609381503,
+                  0.202868401322417,
+                  0.44249740878540894,
+                  0.8671744107388966
+                ]
+              }
+            ],
+            "camera": [
+              1.7,
+              11.2,
+              13.8
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "experience",
+            "scene": "reset 1 / oblique parallel",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 8358,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -1.8704689912530184,
+                  8.969481153162441,
+                  0.9897265508722584
+                ],
+                "quaternion": [
+                  0.08703306860749631,
+                  0.21125773251317717,
+                  0.5163928024110715,
+                  0.8253083599723159
+                ]
+              },
+              {
+                "position": [
+                  5.086885823170217,
+                  4.105867428402627,
+                  -2.0406225071210318
+                ],
+                "quaternion": [
+                  0.21716509662948097,
+                  0.07102045750172593,
+                  -0.2921991026849022,
+                  0.9286630712009021
+                ]
+              }
+            ],
+            "camera": [
+              2.3,
+              10.7,
+              13.2
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "research",
+            "scene": "reveal 2 / depth crossing",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 9708,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -1.8704689912530184,
+                  8.969481153162441,
+                  0.9897265508722584
+                ],
+                "quaternion": [
+                  0.08703306860749631,
+                  0.21125773251317717,
+                  0.5163928024110715,
+                  0.8253083599723159
+                ]
+              },
+              {
+                "position": [
+                  5.086885823170217,
+                  4.105867428402627,
+                  -2.0406225071210318
+                ],
+                "quaternion": [
+                  0.21716509662948097,
+                  0.07102045750172593,
+                  -0.2921991026849022,
+                  0.9286630712009021
+                ]
+              }
+            ],
+            "camera": [
+              2.3,
+              10.7,
+              13.2
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "research",
+            "scene": "reveal 2 / depth crossing",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 10964.515625,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  2.57959764529156,
+                  9.162950694239349,
+                  2.8999723076564687
+                ],
+                "quaternion": [
+                  0.08147316180494799,
+                  0.2134635999025385,
+                  0.5378199017719341,
+                  0.8115079597146172
+                ]
+              },
+              {
+                "position": [
+                  4.229935571810066,
+                  1.3624028932709895,
+                  -3.709773586791851
+                ],
+                "quaternion": [
+                  0.2158925434437196,
+                  0.07479969427242275,
+                  -0.27594719398437106,
+                  0.933621208817744
+                ]
+              }
+            ],
+            "camera": [
+              1.5,
+              10.4,
+              13.3
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "approach",
+            "scene": "reveal 2 / foreground and rear exchange",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 12221.03125,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  4.564944697676796,
+                  4.640420994670915,
+                  -1.1064292669696731
+                ],
+                "quaternion": [
+                  0.21523158072986118,
+                  0.07668084007345977,
+                  -0.2677894081399908,
+                  0.9359937223668687
+                ]
+              },
+              {
+                "position": [
+                  -2.184451440173049,
+                  8.889202955330576,
+                  0.7437679807037678
+                ],
+                "quaternion": [
+                  0.07773529954271619,
+                  0.21485299109588973,
+                  0.5519007559359352,
+                  0.8019981116059419
+                ]
+              }
+            ],
+            "camera": [
+              0.5,
+              10.2,
+              13.3
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "approach",
+            "scene": "reveal 2 / diagonal exchange",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 14236.328125,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  5.417977574307456,
+                  4.054551625087649,
+                  -0.6212175505768324
+                ],
+                "quaternion": [
+                  0.21455422729782725,
+                  0.07855614633164329,
+                  -0.2596112290953918,
+                  0.9382949563701883
+                ]
+              },
+              {
+                "position": [
+                  -2.507495406058243,
+                  9.008401875619946,
+                  0.6905830481118093
+                ],
+                "quaternion": [
+                  0.07208446595533628,
+                  0.21681423925974105,
+                  0.5727054964414255,
+                  0.7872762093242333
+                ]
+              }
+            ],
+            "camera": [
+              -1.6,
+              9.5,
+              13.5
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "foundations",
+            "scene": "reveal 2 / outer limits",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 14641.328125,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  2.9740589863490303,
+                  9.351125974171689,
+                  1.2478101317114554
+                ],
+                "quaternion": [
+                  0.08562470437208512,
+                  0.05995506345831189,
+                  0.570434324618422,
+                  0.8146646436810838
+                ]
+              },
+              {
+                "position": [
+                  5.573469015885895,
+                  4.660810200046085,
+                  0.795809379831191
+                ],
+                "quaternion": [
+                  0.06768440835400855,
+                  -0.016875618358527245,
+                  -0.24133258602093888,
+                  0.9679321346536808
+                ]
+              }
+            ],
+            "camera": [
+              -3.8,
+              7.2,
+              14
+            ],
+            "target": [
+              0,
+              6,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "foundations",
+            "scene": "reset 2 / return arc",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0,
+            "keyLight": [
+              8,
+              13,
+              8
+            ]
+          }
+        },
+        {
+          "at": 14974.328125,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.08,
+                  3.15,
+                  3
+                ],
+                "quaternion": [
+                  0.09861205166413217,
+                  -0.42713572269685124,
+                  0.20218466835298624,
+                  0.8757580131211031
+                ]
+              },
+              {
+                "position": [
+                  1.875,
+                  3.15,
+                  -3
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  -0.224951054343865,
+                  0.9743700647852352
+                ]
+              }
+            ],
+            "camera": [
+              -6,
+              5.3,
+              13.4
+            ],
+            "target": [
+              0,
+              3.2,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "foundations",
+            "scene": "reset 2 / final alignment",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0.15,
+            "keyLight": [
+              8,
+              9,
+              5
+            ]
+          }
+        },
+        {
+          "at": 15136.328125,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.08,
+                  3.15,
+                  0.3
+                ],
+                "quaternion": [
+                  0.09861205166413217,
+                  -0.42713572269685124,
+                  0.20218466835298624,
+                  0.8757580131211031
+                ]
+              },
+              {
+                "position": [
+                  1.875,
+                  3.15,
+                  -0.15
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  -0.224951054343865,
+                  0.9743700647852352
+                ]
+              }
+            ],
+            "camera": [
+              -6,
+              5.3,
+              13.4
+            ],
+            "target": [
+              0,
+              3.2,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "contact",
+            "scene": "closing / resolved V",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0.15,
+            "keyLight": [
+              8,
+              9,
+              5
+            ]
+          }
+        },
+        {
+          "at": 16036.328125,
+          "pose": {
+            "beams": [
+              {
+                "position": [
+                  -2.08,
+                  3.15,
+                  0.3
+                ],
+                "quaternion": [
+                  0.09861205166413217,
+                  -0.42713572269685124,
+                  0.20218466835298624,
+                  0.8757580131211031
+                ]
+              },
+              {
+                "position": [
+                  1.875,
+                  3.15,
+                  -0.15
+                ],
+                "quaternion": [
+                  0,
+                  0,
+                  -0.224951054343865,
+                  0.9743700647852352
+                ]
+              }
+            ],
+            "camera": [
+              -6,
+              5.3,
+              13.4
+            ],
+            "target": [
+              0,
+              3.2,
+              0
+            ],
+            "darkness": 0,
+            "chapter": "contact",
+            "scene": "closing / resolved V",
+            "progress": 0,
+            "localProgress": 0,
+            "framingX": 0.15,
+            "keyLight": [
+              8,
+              9,
+              5
+            ]
+          }
+        }
+      ],
+      "phases": [
+        {
+          "id": "opening",
+          "start": 0,
+          "end": 180,
+          "contentStart": 0,
+          "contentEnd": 180
+        },
+        {
+          "id": "reveal-1",
+          "start": 180,
+          "end": 6623,
+          "contentStart": 180,
+          "contentEnd": 6623
+        },
+        {
+          "id": "reset-1",
+          "start": 6623,
+          "end": 7523,
+          "contentStart": 6623,
+          "contentEnd": 6623
+        },
+        {
+          "id": "reveal-2",
+          "start": 7523,
+          "end": 14236.328125,
+          "contentStart": 6623,
+          "contentEnd": 13336.328125
+        },
+        {
+          "id": "reset-2",
+          "start": 14236.328125,
+          "end": 15136.328125,
+          "contentStart": 13336.328125,
+          "contentEnd": 13336.328125
+        },
+        {
+          "id": "closing",
+          "start": 15136.328125,
+          "end": 16036.328125,
+          "contentStart": 13336.328125,
+          "contentEnd": 14236.328125
+        }
+      ],
+      "total": 16036.328125,
+      "destinations": {
+        "top": 0,
+        "about": 783,
+        "experience": 1953,
+        "experience-applications": 2888,
+        "experience-integrations": 3860,
+        "experience-production": 4832,
+        "experience-delivery": 5804,
+        "experience-exit": 7676,
+        "research": 8421,
+        "approach": 9681,
+        "approach-explore": 10486.046875,
+        "approach-structure": 10890.046875,
+        "approach-direct": 11294.046875,
+        "approach-verify": 11698.046875,
+        "freelance": 12374.03125,
+        "foundations": 13476.8125,
+        "foundation-grid": 13908.921875,
+        "credentials": 15226.328125,
+        "contact": 15658.625
+      },
+      "sections": {
+        "top": {
+          "top": 0,
+          "height": 900
+        },
+        "about": {
+          "top": 900,
+          "height": 1170
+        },
+        "experience": {
+          "top": 2070,
+          "height": 5568
+        },
+        "experience-applications": {
+          "top": 3005,
+          "height": 972
+        },
+        "experience-integrations": {
+          "top": 3977,
+          "height": 972
+        },
+        "experience-production": {
+          "top": 4949,
+          "height": 972
+        },
+        "experience-delivery": {
+          "top": 5921,
+          "height": 972
+        },
+        "experience-exit": {
+          "top": 6893,
+          "height": 675
+        },
+        "research": {
+          "top": 7638,
+          "height": 1260
+        },
+        "approach": {
+          "top": 8898,
+          "height": 2693
+        },
+        "approach-explore": {
+          "top": 9703.046875,
+          "height": 378
+        },
+        "approach-structure": {
+          "top": 10107.046875,
+          "height": 378
+        },
+        "approach-direct": {
+          "top": 10511.046875,
+          "height": 378
+        },
+        "approach-verify": {
+          "top": 10915.046875,
+          "height": 378
+        },
+        "freelance": {
+          "top": 11591.03125,
+          "height": 1103
+        },
+        "foundations": {
+          "top": 12693.8125,
+          "height": 1282
+        },
+        "foundation-grid": {
+          "top": 13125.921875,
+          "height": 724
+        },
+        "credentials": {
+          "top": 13543.328125,
+          "height": 306
+        },
+        "contact": {
+          "top": 13975.625,
+          "height": 1017
+        }
+      }
+    },
+    "api": [
+      "getState",
+      "timeline",
+      "seek",
+      "navigate"
+    ],
+    "stage": {
+      "portfolioStage": "",
+      "ready": "true",
+      "mode": "full",
+      "phase": "opening",
+      "contentOffset": "0.000",
+      "master": "0.000",
+      "darkness": "0.000",
+      "frameCount": "1",
+      "beamCount": "2",
+      "geometry": "shared-1x6.5x1",
+      "scene": "opening / joined V",
+      "inspection": "{\"beams\":[{\"position\":[-2.08,3.15,0.3],\"quaternion\":[0.09861205166413217,-0.42713572269685124,0.20218466835298624,0.8757580131211031],\"bounds\":{\"left\":0.3032877940372978,\"right\":0.6609187936575047,\"top\":0.06428734600940816,\"bottom\":0.9349030081751761}},{\"position\":[1.875,3.15,-0.15],\"quaternion\":[0,0,-0.224951054343865,0.9743700647852352],\"bounds\":{\"left\":0.6300473046017392,\"right\":0.9165114874813023,\"top\":0.10870908129904949,\"bottom\":0.8892799615727274}}],\"camera\":[-5.8,5,12.8],\"target\":[0,3.2,0],\"darkness\":0,\"chapter\":\"top\",\"scene\":\"opening / joined V\",\"progress\":0,\"localProgress\":0,\"framingX\":0.15,\"keyLight\":[8,9,5],\"master\":0,\"contentOffset\":0,\"phase\":\"opening\",\"act\":0,\"scroll\":0}"
+    },
+    "root": {
+      "motion": "full",
+      "cinematic": "true",
+      "theme": "light",
+      "chapter": "top",
+      "motionReady": "true",
+      "restorationApplied": "true"
+    }
+  },
+  "errors": []
+}
