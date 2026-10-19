@@ -12,8 +12,8 @@ export default function SceneLoader(){
  const onReady=useCallback(()=>setReady(true),[]);
  const onFailure=useCallback(()=>{setFailed(true);setReady(false);window.dispatchEvent(new Event('kineticfailure'));},[]);
  useEffect(()=>{if(process.env.NODE_ENV==='development'&&new URLSearchParams(location.search).has('sceneDebug')){const frame=requestAnimationFrame(()=>setInspect(true));return()=>cancelAnimationFrame(frame);}},[]);
- return <div className={styles.stage} data-portfolio-stage="" data-ready={ready&&!failed?'true':'false'} data-mode={failed?'fallback':reducedMotion?'reduced':'full'} aria-hidden="true">
+ return <div className={styles.stage} data-portfolio-stage="" data-ready={ready&&!failed&&!reducedMotion?'true':'false'} data-mode={failed?'fallback':reducedMotion?'reduced':'full'} aria-hidden="true">
  {inspect&&<pre id="scene-inspector" className={styles.inspector}/>}
- {!failed&&<SceneBoundary onFailure={onFailure}><div className={styles.canvas}><PortfolioScene onReady={onReady} onFailure={onFailure}/></div></SceneBoundary>}
+ {!failed&&!reducedMotion&&<SceneBoundary onFailure={onFailure}><div className={styles.canvas}><PortfolioScene onReady={onReady} onFailure={onFailure}/></div></SceneBoundary>}
  </div>;
 }

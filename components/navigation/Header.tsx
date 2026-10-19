@@ -20,7 +20,7 @@ export default function Header() {
   useEffect(() => {
     const element = header.current;
     if (!element) return;
-    const measure = () => document.documentElement.style.setProperty("--measured-header-height", `${element.getBoundingClientRect().height}px`);
+    const measure = () => document.documentElement.style.setProperty("--measured-header-height", `${element.getBoundingClientRect().bottom}px`);
     const observer = new ResizeObserver(measure);
     measure(); observer.observe(element);
     return () => { observer.disconnect(); document.documentElement.style.removeProperty("--measured-header-height"); };

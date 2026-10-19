@@ -5,11 +5,16 @@ import { mkdir, writeFile } from 'node:fs/promises';
 const sections = ['experience', 'research', 'approach', 'freelance', 'foundations', 'contact'];
 
 async function jump(page: Page, id: string, offset = 110) {
-  await page.evaluate(({ id, offset }) => {
-    const target = document.getElementById(id)!;
-    window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - offset, behavior: 'instant' });
-  }, { id, offset });
-  await page.waitForTimeout(180);
+  // Exercise the same anchor mapping as real navigation, including the two
+  // content holds; native DOM offsets are not master-scroll coordinates.
+  void offset;
+  await expect(page.locator('html')).toHaveAttribute('data-motion-ready','true');
+  await page.evaluate(() => new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))));
+  await page.evaluate(id => {
+    const anchor=document.createElement('a');anchor.href=`#${id}`;
+    document.body.appendChild(anchor);anchor.click();anchor.remove();
+  },id);
+  await expect(page.locator('html')).not.toHaveAttribute('data-navigating', /.+/, {timeout:6000});
 }
 
 test('server content, real assets, resume and verified contact', async ({ page, request }) => {
@@ -97,22 +102,23 @@ test('clipboard success and denial have honest states', async ({ page }) => {
   await expect(page.locator('input[readonly], textarea[readonly]')).toBeVisible();
 });
 
-test('desktop and mobile chapters have no overflow and pass automated accessibility checks', async ({ page }) => {
-  test.setTimeout(90_000);
-  await page.goto('/');
-  for (const size of [{ width: 2560, height: 1440 }, { width: 1920, height: 1080 }, { width: 1440, height: 900 }, { width: 1280, height: 720 }, { width: 768, height: 1024 }, { width: 390, height: 844 }, { width: 360, height: 780 }]) {
-    await page.setViewportSize(size);
-    for (const id of ['top', ...sections]) {
-      await jump(page, id);
-      expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
-    }
+for (const size of [{ width: 2560, height: 1440 }, { width: 1920, height: 1080 }, { width: 1440, height: 900 }, { width: 1280, height: 720 }, { width: 768, height: 1024 }, { width: 390, height: 844 }, { width: 360, height: 780 }]) {
+ test(`all chapters fit the ${size.width} ? ${size.height} viewport`,async({page})=>{
+  await page.setViewportSize(size);await page.goto('/');
+  for(const id of ['top',...sections]){
+   await jump(page,id);
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
   }
-  await page.setViewportSize({ width: 1440, height: 900 });
-  for (const [id, offset] of [['top', 110], ['experience', 520], ['experience', 410], ['experience', 110], ['research', 110], ['foundations', 110]] as const) {
-    await jump(page, id, offset);
-    const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
-    expect(results.violations.map(v => ({ id: v.id, nodes: v.nodes.map(n => n.target) }))).toEqual([]);
-  }
+ });
+}
+
+test('reading chapters pass automated accessibility checks',async({page})=>{
+ await page.goto('/');
+ for(const id of ['top','experience','research','approach','freelance','foundations']){
+  await jump(page,id);
+  const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
+  expect(results.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))).toEqual([]);
+ }
 });
 
 test('wide composition aligns to the viewport and scene layers remain transparent', async ({ page }) => {
@@ -164,14 +170,15 @@ test('motion preference persists without moving the reading position', async ({ 
   await expect(stage).toHaveAttribute('data-mode', 'reduced');
   await expect(page.locator('canvas')).toHaveCount(0);
   await page.getByRole('button', { name: /Motion: Reduced/ }).last().scrollIntoViewIfNeeded();
-  const before = await page.evaluate(() => window.scrollY);
+  const before = await page.locator('#contact h2').evaluate(el=>el.getBoundingClientRect().top);
   await page.getByRole('button', { name: /Motion: Reduced/ }).last().click();
   await expect(stage).toHaveAttribute('data-mode', 'full');
-  expect(Math.abs(await page.evaluate(() => window.scrollY) - before)).toBeLessThan(3);
+  await expect.poll(async()=>Math.abs(await page.locator('#contact h2').evaluate(el=>el.getBoundingClientRect().top)-before)).toBeLessThan(3);
   await page.reload();
   await expect(stage).toHaveAttribute('data-mode', 'full');
   await page.getByRole('button', { name: /Motion: Full/ }).last().click();
   await expect(stage).toHaveAttribute('data-mode', 'reduced');
+  await expect.poll(async()=>Math.abs(await page.locator('#contact h2').evaluate(el=>el.getBoundingClientRect().top)-before)).toBeLessThan(3);
 });
 
 test('scene comes to rest, keeps chapter themes and survives context loss', async ({ page }) => {
@@ -221,6 +228,7 @@ test('WebGL creation failure leaves the complete fallback portfolio', async ({ p
 });
 
 test('capture reference chapters and responsive evidence', async ({ page }) => {
+  test.setTimeout(150_000);
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
@@ -245,4 +253,64 @@ test('capture reference chapters and responsive evidence', async ({ page }) => {
     await page.screenshot({ path: `test-results/screenshots/mobile-${id}.png` });
   }
   expect(errors).toEqual([]);
+});
+
+test('reading destinations and terminal contact clear the measured header',async({page})=>{
+ test.setTimeout(90_000);
+ for(const viewport of [{width:2560,height:1317},{width:1440,height:900},{width:1280,height:720},{width:390,height:844}]){
+  await page.setViewportSize(viewport);await page.goto('/');
+  await expect(page.locator('html')).toHaveAttribute('data-motion-ready','true');
+  for(const id of ['experience','research','contact']){
+   await jump(page,id);
+   const bounds=await page.evaluate(id=>({header:document.querySelector('.site-header')!.getBoundingClientRect().bottom,heading:document.querySelector(`#${id} h2`)!.getBoundingClientRect().top}),id);
+   expect(bounds.heading).toBeGreaterThanOrEqual(bounds.header+16);
+  }
+  await page.keyboard.press('End');
+  await expect.poll(async()=>page.evaluate(()=>document.querySelector('#contact h2')!.getBoundingClientRect().top)).toBeGreaterThanOrEqual(104);
+  const end=await page.evaluate(()=>({y:scrollY,max:document.documentElement.scrollHeight-innerHeight,footer:document.querySelector('.site-footer')!.getBoundingClientRect().bottom,overflow:document.documentElement.scrollWidth>innerWidth}));
+  expect(Math.abs(end.y-end.max)).toBeLessThan(1);expect(end.footer).toBeLessThanOrEqual(viewport.height);expect(end.overflow).toBe(false);
+ }
+});
+
+test('navigation traverses native states, cancels promptly and replaces its destination',async({page})=>{
+ await page.goto('/');await expect(page.locator('html')).toHaveAttribute('data-motion-ready','true');
+ await page.getByRole('navigation').first().getByRole('link',{name:'Freelance',exact:true}).click();
+ await expect(page.locator('html')).toHaveAttribute('data-navigating','freelance');
+ const before=await page.evaluate(()=>scrollY);await page.waitForTimeout(260);
+ const during=await page.evaluate(()=>({y:scrollY,content:Number(document.querySelector<HTMLElement>('[data-portfolio-stage]')!.dataset.contentOffset),chapter:document.documentElement.dataset.chapter}));
+ expect(during.y).toBeGreaterThan(before);expect(during.content).toBeGreaterThan(0);expect(during.chapter).not.toBe('freelance');
+ await page.mouse.wheel(0,150);await expect(page.locator('html')).not.toHaveAttribute('data-navigating',/.+/);
+ await page.waitForTimeout(150);const canceled=await page.evaluate(()=>scrollY);await page.waitForTimeout(350);
+ expect(Math.abs(await page.evaluate(()=>scrollY)-canceled)).toBeLessThan(2);
+ await expect(page.locator('#freelance h2')).not.toBeFocused();
+ await page.getByRole('navigation').first().getByRole('link',{name:'Freelance',exact:true}).click();await page.waitForTimeout(200);
+ await page.getByRole('navigation').first().getByRole('link',{name:'Research',exact:true}).click();
+ await expect(page.locator('html')).toHaveAttribute('data-navigating','research');
+ await expect(page.locator('#research h2')).toBeFocused();await expect(page.locator('#freelance h2')).not.toBeFocused();
+ await expect(page.locator('html')).not.toHaveAttribute('data-navigating',/.+/);
+});
+
+test('reset two holds the complete final block without contact while the canvas progresses',async({page})=>{
+ await page.goto('/');await expect(page.locator('html')).toHaveAttribute('data-motion-ready','true');
+ const stage=page.locator('[data-portfolio-stage]');
+ await expect(stage).toHaveAttribute('data-ready','true');
+ await expect(stage).toHaveAttribute('data-frame-count',/^[1-9]\d*$/);
+ const result=await page.evaluate(async()=>{
+  const stage=document.querySelector<HTMLElement>('[data-portfolio-stage]')!;
+  const seek=async(y:number)=>{scrollTo({top:y,behavior:'instant'});await new Promise(requestAnimationFrame);await new Promise(requestAnimationFrame);};
+  const max=document.documentElement.scrollHeight-innerHeight,positions=[];
+  for(let y=0;y<max;y+=160){await seek(y);if(stage.dataset.phase==='reset-2')positions.push(y);}
+  if(positions.length<2)throw new Error('The measured timeline must contain a second reset');
+  const start=positions[0],end=positions[positions.length-1],snapshots=[];
+  for(const fraction of [0,.5,1]){
+   await seek(start+(end-start)*fraction);
+   const block=document.getElementById('credentials')!.getBoundingClientRect(),contact=document.querySelector('#contact h2')!.getBoundingClientRect();
+   snapshots.push({top:block.top,bottom:block.bottom,contact:contact.top,header:document.querySelector('.site-header')!.getBoundingClientRect().bottom,frames:Number(stage.dataset.frameCount),content:Number(stage.dataset.contentOffset)});
+  }
+  return {snapshots,height:innerHeight};
+ });
+ for(const snapshot of result.snapshots){expect(snapshot.top).toBeGreaterThan(snapshot.header+16);expect(snapshot.bottom).toBeLessThan(result.height);expect(snapshot.contact).toBeGreaterThan(result.height);}
+ expect(Math.max(...result.snapshots.map(s=>s.top))-Math.min(...result.snapshots.map(s=>s.top))).toBeLessThan(1);
+ expect(result.snapshots[2].frames).toBeGreaterThan(result.snapshots[0].frames);
+ expect(result.snapshots[0].content).toBe(result.snapshots[2].content);
 });

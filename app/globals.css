@@ -6,7 +6,7 @@
   --gutter:6vw; --header-height:100px; color-scheme:light;
 }
 * { box-sizing:border-box }
-html { scroll-padding-top:calc(var(--measured-header-height,var(--header-height)) + 22px) }
+html { scroll-padding-top:var(--reading-inset,calc(var(--measured-header-height,var(--header-height)) + 22px)) }
 body { margin:0; background:var(--page-bg); color:var(--page-fg); font-family:var(--font-manrope),sans-serif; font-size:19px; line-height:1.65; -webkit-font-smoothing:antialiased }
 button,input { font:inherit }
 button,a { -webkit-tap-highlight-color:transparent }
@@ -493,3 +493,51 @@ html:not([data-cinematic=true]) .glyph-copy { display:none }
 .site-header { background:var(--world-bg,#f8eee2); box-shadow:0 10px 22px -12px var(--world-bg,#f8eee2) }
 .wordmark,.desktop-nav { background:none; box-shadow:none }
 html,body { overflow-x:clip }
+
+/* The track has a viewport origin of zero. The controller measures the header
+   once; contact owns only its actual reading height, never a second pin spacer. */
+.site-header { padding-top:env(safe-area-inset-top); height:calc(88px + env(safe-area-inset-top)) }
+.contact { padding-top:var(--reading-inset,110px); min-height:100svh }
+html[data-cinematic=true] .contact { padding-top:0; min-height:calc(100svh - var(--reading-inset,110px)) }
+.contact .section-eyebrow { margin-bottom:24px }
+.contact h2 { margin-bottom:24px }
+.contact-lead { line-height:1.4; margin-bottom:20px }
+.contact .email-row { margin:16px 0 12px }
+.contact .site-footer { padding-top:32px }
+.contact .footer-line { padding-bottom:12px }
+html[data-cinematic=true] .experience-exit { color:var(--page-fg) }
+@media(max-width:900px) { .site-header { height:calc(80px + env(safe-area-inset-top)) } }
+
+@media(min-width:901px) {
+ .contact-copy { display:grid; grid-template-columns:max-content minmax(0,1fr); column-gap:26px }
+ .contact-copy>.section-eyebrow,.contact-copy>h2,.contact-copy>.contact-lead,.contact-copy>.actions { grid-column:1 / -1 }
+ .contact-copy>.button-coral { justify-self:start; align-self:start }
+ .contact-copy>.email-row { margin:0; align-self:start; gap:8px 20px }
+ .contact-copy>.actions { margin-top:16px }
+ .contact .site-footer { padding-top:24px }
+}
+
+@media(min-width:901px) and (max-height:800px) {
+ .contact .section-eyebrow { margin-bottom:16px }
+ .contact h2 { margin-bottom:16px }
+ .contact-lead { font-size:24px; margin-bottom:16px }
+ .contact-copy>.actions { margin-top:12px }
+ .contact .site-footer { padding-top:16px }
+ .contact .footer-line { padding-bottom:8px }
+ .contact .footer-bottom { padding-top:8px }
+}
+
+/* On short desktop stages retain the complete degree and credential reading
+   block together, without spending the contact approach before the reset. */
+@media(min-width:901px) and (max-height:800px) {
+ html[data-cinematic=true] .foundation-grid { max-width:53vw }
+ html[data-cinematic=true] .education { max-width:53vw; padding-top:16px; padding-bottom:0 }
+ html[data-cinematic=true] .education>.mono { margin-bottom:10px }
+ html[data-cinematic=true] .education h3 { font-size:29px; margin-bottom:10px; max-width:30ch }
+ html[data-cinematic=true] .education>p { margin-bottom:8px }
+ html[data-cinematic=true] .education .cgpa { font-size:38px; margin-top:8px; margin-bottom:0 }
+ html[data-cinematic=true] .credentials { margin-top:22px; gap:28px }
+ html[data-cinematic=true] .credentials article { padding-top:16px; padding-bottom:0 }
+ html[data-cinematic=true] .credentials h3 { font-size:25px; margin-bottom:10px }
+ html[data-cinematic=true] .credentials article>p { margin-bottom:9px }
+}
